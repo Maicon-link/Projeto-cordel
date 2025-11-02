@@ -1,19 +1,79 @@
 
 #d1 {
     background-color: black;
+    font-size: 43px;
+    padding: 5px;
+    margin-bottom: 100px;
 }
 
 h1 {
     text-align: center;
     color: white;
-    
+    font-family: Passion One; 
+    margin-bottom: -20px; 
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration:underline
 }
 
 #t1 {
     text-align: center;
     color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+.poesia{
+    margin-bottom: 60px;
+    
 }
 
-article {
-    background-color: aqua;
+.quadro1 {
+    margin-bottom: 60px;
+}
+
+.quadro1 > p {
+    margin-bottom: 70px;
+    width: 140px;
+}
+
+.quadro1 > article {
+    background-image: url(imagens/background001.jpg);
+}
+
+.quadro2 {
+    margin-bottom: 60px;
+}
+
+.quadro2 > p {
+    margin-bottom: 70px;
+    width: 140px;
+    background-color: red;
+}
+
+.quadro2 > article {
+    background-image: url(imagens/background002.jpg);
+    
+}
+
+body {
+    font-family: Sriracha;
+}
+
+p {
+    margin-left: 30px;
+}
+
+footer {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
 }
